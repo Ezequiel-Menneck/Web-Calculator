@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#titulo {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    margin: 0px;
+    text-align: center;
+    color: #000000;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.botao {
+    width: 55px;
+    height: 55px;
+    font-size: 28px;
+    margin: 2.2;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 2px 5px #424f64;
+}
+
+.look {
+    width: 348px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    font-size: 30px;
+    box-shadow: 2px 5px #424f64;
+}
+
+.tabela {
+    text-align: center;
+}
+
+#notting {
+    margin-left: 59px;
+}
+
+.all {
+    text-align: center;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #748db6;
+    font-family: sans-serif;
+  }
+
+.botaodif {
+    width: 32.5%;
+    height: 55px;
+    font-size: 28px;
+    margin: 2.2;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 2px 5px #424f64;
+    background-color: #4974ac;
+}
+
+.button-night {
+    background-color: #c85555;
+}
+
+.dark-mode {
+    background-color: #c9ca87;
+}
+
+.dianoite {
+    border-radius: 15px;
+    font-size: 20px;
+    height: 35px;
+    width: 114px;
+    border: none;
+}

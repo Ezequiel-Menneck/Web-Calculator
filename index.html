@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" lang="pt-BR">
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+    <title>Calculadora Web</title>
+</head>
+<body>
+    <div class="all">
+        <button class="dianoite" onclick="dayNight(); bDayNight()">Day / Night</button>
+        <h1 id="titulo">Calculadora Web</h1>
+        <div class="container">
+            <center>
+            <table class="tabela">
+                <tr>
+                    <form name="form" class="form">
+                        <th colspan="6"><input class="look" name="look"></th>
+                    </form>
+                </tr>
+                <td>
+                    <input type="button" class="botao" onclick="inserir(7)" value="7">
+                    <input type="button" class="botao" onclick="inserir(8)" value="8"> 
+                    <input type="button" class="botao" onclick="inserir(9)" value="9"> 
+                    <input type="button" class="botao" onclick="inserir('/')" value="/">
+                    <input type="button" class="botao" onclick="voltar()" value="BS">
+                    <input type="button" class="botao" onclick="c()" value="C">
+                </td>
+                <tr>
+                    <td>
+                        <input type="button" class="botao" onclick="inserir(4)" value="4">
+                        <input type="button" class="botao" onclick="inserir(5)" value="5">
+                        <input type="button" class="botao" onclick="inserir(6)" value="6">
+                        <input type="button" class="botao" onclick="inserir('*')" value="*">
+                        <input type="button" class="botao" onclick="inserir('(')" value="(">
+                        <input type="button" class="botao" onclick="inserir(')')" value=")">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" class="botao" onclick="inserir(1)" value="1">
+                        <input type="button" class="botao" onclick="inserir(2)" value="2">
+                        <input type="button" class="botao" onclick="inserir(3)" value="3">
+                        <input type="button" class="botao" onclick="inserir('-')" value="-">
+                        <input type="button" class="botao" onclick="inserir('x²')" value="x²">
+                        <input type="button" class="botao" onclick="inserir('√')" value="√">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" class="botao" onclick="inserir(0)" value="0">
+                        <input type="button" class="botao" onclick="inserir(',')" value=",">
+                        <input type="button" class="botao" onclick="inserir('%')" value="%">
+                        <input type="button" class="botao" onclick="inserir('+')" value="+">
+                        <input name="igual" type="button" class="botaodif" id="equal" onclick='igual()' value="=">
+                    </td>
+                </tr>
+            </table>
+        </center>
+        </div>
+    </div>
+</body>
+</html>
